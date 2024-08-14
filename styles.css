@@ -1,0 +1,165 @@
+body{background-color:teal;
+    display:block;
+   
+    justify-content:center ;
+}
+
+#heady {
+    margin:auto;
+  /* display:flex;*/
+   flex-wrap: wrap;
+   
+   width:100%;
+    height:20vh;
+    z-index:8;
+ 
+
+}
+h1 {
+  
+    margin:auto;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+#collected {
+  float:right;
+  width:20vh;
+  background-color:  rgb(214, 214, 147);
+  z-index:10;
+  position:absolute;
+  top: 1vh;
+  right:1vh;
+  padding-left: 1vh;
+}
+
+
+#box { width:28.45vh;
+  height:21.4vh;
+  background-color:rgb(139, 202, 84);
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+ 
+}
+  .square {
+  width:7vh;
+  height:7vh;
+  border: 1px solid black;
+
+}
+
+.square:hover {
+    background-color: yellow;
+}
+
+#menu { height:10vh;
+width:100vh;
+margin:auto;
+background-color:pink;}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(214, 214, 147);
+  }
+  
+ .list li {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2vh;
+    text-decoration: none;
+  }
+  li {
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111111;
+  }
+
+  #plantcountr {
+    padding-right:50px;
+  }
+
+  #plantcountg {
+    padding-right:70px;
+  }
+
+  #medicinecount {
+    padding-right:12vh;
+   
+  }
+
+  #buysell{
+    width:100%;
+    display:table;
+    padding-top: 5vh;
+  }
+
+  
+  #buysell2{
+    width:100%;
+    display: table-row;
+    padding-top: 5vh;
+  }
+
+  #buy{
+    width:100vh;
+    display: table-cell;
+    height:50vh;
+    background-color:palevioletred;
+  }
+
+  
+  #sell{
+    width:100vh;
+     display: table-cell;
+    height:50vh;
+    background-color:rgb(154, 216, 112);
+  }
+
+  #vertlist {
+    padding-top: 5vh;
+    list-style-type: none;
+    text-decoration: none;
+float:left;
+
+  }
+
+  #vertlist1 {
+    padding-top: 5vh;
+    list-style-type: none;
+    text-decoration: none;
+float:left;
+
+  }
+
+
+  #vertlist2 {
+    padding-top: 5vh;
+    list-style-type: none;
+    text-decoration: none;
+float:left;
+
+  }
+
+  #vertlist2 li:hover {
+    background-color: yellow;
+  }
+
+  #vertlist3 {
+    padding-top: 5vh;
+    list-style-type: none;
+    text-decoration: none;
+float:left;
+
+  }
+
+  #vertlist3 li:hover {
+    background-color: yellow;
+  }
